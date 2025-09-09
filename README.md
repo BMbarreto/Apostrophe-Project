@@ -1,1 +1,1 @@
-# Apostrophe-Project
+9/9/9/2025. I'm using the Apostrophe project to practice the concepts I'm learning in my class. I practiced creating a schema today, which I'll update regularly as I learn more data types or if any important information becomes available. 
