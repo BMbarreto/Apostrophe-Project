@@ -1,13 +1,16 @@
+-- database: :memory:
 -- create a table
 CREATE TABLE wine( 
     wine_id INTEGER PRIMARY KEY,
   name VARCHAR(20) NOT NULL,
   grape_variety VARCHAR(20) NOT NULL,
   vintage INTEGER NOT NULL,
-  wine_color VARCHAR(20) CHECK (wine_color IN ('white','red','sparkling','sweet'))
+  region_id INTEGER NOT NULL,
+  price decimal NOT NULL,
+  wine_color VARCHAR(20) CHECK (wine_color IN ('white','red','sparkling','sweet'))   
 );
 -- insert some values
-INSERT INTO wine VALUES (1, 'Honing', 'Sauvignon Blanc', '2023', 'white');
-INSERT INTO wine VALUES (2, 'Gregory James', 'Chardonnay', '2022', 'white');
+INSERT INTO wine VALUES (1, 'Honing', 'Sauvignon Blanc', '2023', '43', '12.99', 'white');
+INSERT INTO wine VALUES (2, 'Gregory James', 'Chardonnay', '2022', '43', '12.99', 'white');
 -- fetch some values
 SELECT * FROM wine WHERE vintage = '2022';
