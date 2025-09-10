@@ -1,1 +1,2 @@
 9/9/9/2025. I'm using the Apostrophe project to practice the concepts I'm learning in my class. I practiced creating a schema today, which I'll update regularly as I learn more data types or if any important information becomes available. 
+9/10/2025. I revised the table today and added the final elements. I finally figured out how to see the simulation in my code space. 
